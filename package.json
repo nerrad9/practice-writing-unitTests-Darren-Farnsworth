@@ -1,0 +1,21 @@
+{
+  "name": "practice-writing-unittests-darren-farnsworth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerrad9/practice-writing-unitTests-Darren-Farnsworth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/nerrad9/practice-writing-unitTests-Darren-Farnsworth/issues"
+  },
+  "homepage": "https://github.com/nerrad9/practice-writing-unitTests-Darren-Farnsworth#readme"
+}
