@@ -23,10 +23,16 @@ describe("remove", function(){
     test("Should remove item if value exceeds total",function(){
         expect(cart.removeItem({"banana": 2}, "banana", 3)).toEqual({})
     })
+    test("Should do nothing if told to remove nonexistant item", function(){
+        expect(cart.removeItem({"banana":2}, "apple", 2)).toEqual({"banana":2})
+    })
 })
 
 describe("total", function(){
     test("Should return sum of all values in object", function(){
         expect(cart.getTotalItems({"coconut":3})).toBe(3)
+    })
+    test("Should give an empty object 0 total", function(){
+        expect(cart.getTotalItems({})).toBe(0)
     })
 })

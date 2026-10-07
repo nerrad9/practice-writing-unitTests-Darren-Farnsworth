@@ -1,4 +1,8 @@
 function addItem(cart, item, quantity){
+    if (quantity <= 0){
+        console.log(`Invalid quantity: ${quantity}`)
+        return cart
+    }
     if(Object.keys(cart).includes(item)){
         cart[item] += quantity
     }else{
