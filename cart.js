@@ -29,14 +29,5 @@ function getTotalItems(cart){
     }
     return total
 }
-// let shop = {}
-// shop = addItem(shop,"Apple",1)
-// shop = addItem(shop,"Banana",2)
-// shop = addItem(shop,"Coconut",3)
-// console.log(getTotalItems(shop))
-// shop = removeItem(shop, "Apple", 1)
-// shop = removeItem(shop, "Banana", 1)
-// shop = removeItem(shop, "Coconut", 4)
-// console.log(getTotalItems(shop))
 
 export {addItem, removeItem, getTotalItems}

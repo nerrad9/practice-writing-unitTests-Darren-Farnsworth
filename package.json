@@ -4,7 +4,7 @@
   "description": "",
   "main": "cart.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/nerrad9/practice-writing-unitTests-Darren-Farnsworth/issues"
   },
-  "homepage": "https://github.com/nerrad9/practice-writing-unitTests-Darren-Farnsworth#readme"
+  "homepage": "https://github.com/nerrad9/practice-writing-unitTests-Darren-Farnsworth#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
 }
